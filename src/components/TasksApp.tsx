@@ -19,7 +19,7 @@ export const TasksApp = () => {
   return (
     <>
     <h1> Tasks list </h1>
-    <div>
+    <div className="flex">
       <input type="text" value={newTask} onChange={(e) => setNewTask(e.target.value)} placeholder='New task' />
       <button onClick={handleAddTask}> Add Task </button>
     </div>
